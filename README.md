@@ -1,13 +1,15 @@
+![](https://upload.cc/i1/2019/08/26/pAfdKM.jpg)
+
 # Cloud Data Warehouse (By using AWS Redshift)
 #### PROJECT BACKGROUND AND SUMMARY
-- ###### BACKGROUND
+###### *BACKGROUND*
 Sparkify is a startup company which provides the music streaming app. Recently, the analytics team in this company is interested in understanding their user activity on its music streaming app in order to provide better user experience for their user. Their user activities data resides in AWS S3, which are in JSON format. This project aims for **building a data pipeline for copying user activities data from AWS S3 to staging tables** and **for moving the data from staging tables to final analytical tables**. By having the analytical tables resided in Redshift, the analytics team can analyze the data, give suggestions to the APP development team, and improve the product. 
 
-- ###### DETAILS AND DATA MODELING
+###### *DETAILS AND DATA MODELING*
 In this project, it will create an ETL data pipeline to extract JSON data from AWS S3, copy data from AWS S3 to staging tables in Redshift, transform data into a format which analytics team prefers, and move data from staging tables to final analytical tables. For the final analytical table, this project decides to use star schema to store the data and improve access to data. 
 The fact table is songplay, it includes information about songplay history. The dimension tables are user, song, artist, and time. User table includes the user's personal information. Song table includes the song's information. Time table includes when a song is played. The structure can be seen in the below picture.
 
-![](https://upload.cc/i1/2019/07/30/K4u9Ee.jpg)
+![](https://upload.cc/i1/2019/08/25/gM9qd6.jpg)
 ------------
 #### FILES IN THE REPOSITORY
 1. **sql_queries.py**: a python script which details all SQL queries are used in **create_tables.py** and **etl.py**. 
@@ -18,7 +20,7 @@ The fact table is songplay, it includes information about songplay history. The 
 
 4. **dwh.cfg**: a configuration file which contains the necessary information of connecting to S3 and Redshift
 
-5. **test.ipynb**: a jupyter notebook file which is written for developing the python code for create_tables.py and etl.py. If you want to do the further modification, you can run the command in this file first.
+5. **code_develop_notebook.ipynb**: a jupyter notebook file which is written for developing the python code for create_tables.py and etl.py. If you want to do the further modification, you can run the command in this file first.
 
 ------------
 #### HOW TO RUN THE PROJECT
