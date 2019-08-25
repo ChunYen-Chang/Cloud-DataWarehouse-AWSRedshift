@@ -1,4 +1,4 @@
-![](https://upload.cc/i1/2019/08/26/pAfdKM.jpg)
+![image alt ><](https://upload.cc/i1/2019/08/26/pAfdKM.jpg)
 
 # Cloud Data Warehouse (By using AWS Redshift)
 #### PROJECT BACKGROUND AND SUMMARY
