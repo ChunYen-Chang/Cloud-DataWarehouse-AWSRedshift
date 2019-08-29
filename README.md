@@ -1,4 +1,6 @@
-![image alt ><](https://upload.cc/i1/2019/08/26/pAfdKM.jpg)
+<p align="center">
+  <img width="530" height="270" src="https://upload.cc/i1/2019/08/26/pAfdKM.jpg">
+</p>
 
 # Cloud Data Warehouse (By using AWS Redshift)
 #### PROJECT BACKGROUND AND SUMMARY
@@ -9,7 +11,10 @@ Sparkify is a startup company which provides the music streaming app. Recently, 
 In this project, it will create an ETL data pipeline to extract JSON data from AWS S3, copy data from AWS S3 to staging tables in Redshift, transform data into a format which analytics team prefers, and move data from staging tables to final analytical tables. For the final analytical table, this project decides to use star schema to store the data and improve access to data. 
 The fact table is songplay, it includes information about songplay history. The dimension tables are user, song, artist, and time. User table includes the user's personal information. Song table includes the song's information. Time table includes when a song is played. The structure can be seen in the below picture.
 
-![](https://upload.cc/i1/2019/08/25/gM9qd6.jpg)
+<p align="center">
+  <img width="530" height="270" src="https://upload.cc/i1/2019/08/25/gM9qd6.jpg">
+</p>
+
 ------------
 #### FILES IN THE REPOSITORY
 1. **sql_queries.py**: a python script which details all SQL queries are used in **create_tables.py** and **etl.py**. 
