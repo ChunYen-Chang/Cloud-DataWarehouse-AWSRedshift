@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="530" height="270" src="https://upload.cc/i1/2019/08/26/pAfdKM.jpg">
+  <img width="500" height="230" src="https://github.com/ChunYen-Chang/Cloud-DataWarehouse-AWSRedshift/blob/master/images/redshift_logo.jpg">
 </p>
 
 # Cloud Data Warehouse (By using AWS Redshift)
@@ -12,7 +12,7 @@ In this project, it will create an ETL data pipeline to extract JSON data from A
 The fact table is songplay, it includes information about songplay history. The dimension tables are user, song, artist, and time. User table includes the user's personal information. Song table includes the song's information. Time table includes when a song is played. The structure can be seen in the below picture.
 
 <p align="center">
-  <img width="530" height="270" src="https://upload.cc/i1/2019/08/25/gM9qd6.jpg">
+  <img width="650" height="500" src="https://github.com/ChunYen-Chang/Cloud-DataWarehouse-AWSRedshift/blob/master/images/data_modeling.jpg">
 </p>
 
 ------------
